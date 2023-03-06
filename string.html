@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sztring</title>
+    <link rel="stylesheet" href="string.css">
+</head>
+<body>
+    <div>
+        <label>1. feladat... Írj be egy szót:</label>
+        <input type="text" id="aha" required>
+        <button onclick="rovid()">Mehet</button>
+        <p>A szó hossza: <span id="ide"></span></p>
+    </div>
+    <div>
+        <label for="aha">2. feladat... Vezetéknév:</label>
+        <input type="text" id="nev1" required>
+        <label for="aha">Keresztnév:</label>
+        <input type="text" id="nev2" required>
+        <button onclick="nevek()">Mehet</button>
+    </div>
+    <div>
+        <label>3. feladat... Írj be egy szót NAGYBETŰVEL:</label>
+        <input type="text" id="kicsike" required>
+        <button onclick="kicsi();">Mehet</button>
+        <p>A beírt szó kisbetűkkel: <span id="haha"></span></p>
+    </div>
+    <div>
+        <label>4. feladat... Írj be egy szót:</label>
+        <input type="text" id="szo" required>
+        <button onclick="nagy();">NAGY BETŰVEL</button>
+        <button onclick="kis()">kis betűvel</button>
+        <p id="hihi"></p>
+    </div>
+    <div>
+        <label>5. feladat... Írj be egy szót:</label>
+        <input type="text" id="vissza" required>
+        <button onclick="visszafele()">Mehet</button>
+        <p id="hehe"></p>
+    </div>
+    <div>
+        <label>6. feladat... Írj be egy legalább 30 karakterből álló szöveget:</label>
+        <input type="text" id="harminc" min="30" required>
+        <label>Írj be egy szót:</label>
+        <input type="text" id="keres" required>
+        <button onclick="har30()">Mehet</button>
+    </div>
+    <div>
+        <label>7. feladat... Írj be egy szöveget:</label>
+        <input type="text" id="szoveg" required>
+        <button onclick="text()">Mehet</button>
+        <p>Ennyi szőköz található a szövegben: <span id="ahha"></span></p>
+    </div>
+    <div>
+        <label>8. feladat... Írj be egy szöveget:</label>
+        <input type="text" id="ascii" required>
+        <button onclick="ASCII()">Mehet</button>
+        <p>A karakterek kódolva: <span id="ehe"></span></p>
+    </div>
+</body>
+<script src="string.js"></script>
+</html>
